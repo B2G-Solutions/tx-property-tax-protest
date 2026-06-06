@@ -31,11 +31,11 @@ If you have a VA disability rating, the skill flags the disabled veteran propert
 
 ## Installation
 
-Ask Claude to use the skill at [github.com/ChallengerA91/tx-property-tax-protest](https://github.com/ChallengerA91/tx-property-tax-protest).
+Ask Claude to use the skill at [github.com/B2G-Solutions/tx-property-tax-protest](https://github.com/B2G-Solutions/tx-property-tax-protest).
 
 Or clone it:
 ```bash
-git clone https://github.com/ChallengerA91/tx-property-tax-protest.git
+git clone https://github.com/B2G-Solutions/tx-property-tax-protest.git
 ```
 
 Then point Claude at your property and say:
