@@ -1,0 +1,14 @@
+version: 2
+updates:
+  # Keep the GitHub Actions pinned in .github/workflows/*.yml current
+  # (currently actions/checkout@v4). There is no npm or pip manifest in this
+  # repo, so GitHub Actions is the only ecosystem worth monitoring here.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "dependencies"
+      - "github-actions"
